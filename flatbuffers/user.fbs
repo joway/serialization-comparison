@@ -1,0 +1,8 @@
+namespace flatbuffers;
+
+table User {
+  name:string;
+  email:string;
+}
+
+root_type User;
